@@ -26,7 +26,6 @@
         <header-file src="src/ios/iOSNativeSharing.h" />
         <source-file src="src/ios/iOSNativeSharing.m" />
 		
-		<framework src="social.framework" weak="true " />
+		<framework src="social.framework" weak="true" />
     </platform>
 </plugin>
-
