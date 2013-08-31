@@ -1,17 +1,17 @@
 //
-//  Social.m
+//  iOSNativeSharing.m
 //
 //  Cameron Lerch
 //  Sponsored by Brightflock: http://brightflock.com
 //
 
-#import "Social.h"
+#import "iOSNativeSharing.h"
 
-@interface Social ()
+@interface iOSNativeSharing ()
 
 @end
 
-@implementation Social
+@implementation iOSNativeSharing
 
 - (void)available:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options {
     BOOL avail = false;
