@@ -59,7 +59,8 @@ window.plugins.iOSNativeSharing.available(function(avail) {
 window.plugins.iOSNativeSharing.share('$MESSAGE', '$URL', '$IMAGE');
 ```
 
-The message and url are just strings (prepend a http:// to the given URL).
+$MESSAGE and $URL are arbitrary strings.
+URLs are tested for validity, if they do not contain any protocol, "http://" will be prepended.
 The image is a file on the device itself.
 Sharing Image URLs ist untested, but should work.
 
