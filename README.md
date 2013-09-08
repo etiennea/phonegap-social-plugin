@@ -1,7 +1,7 @@
-# Cordova / PhoneGap iOS Native Sharing Plugin #
-
+# Cordova / PhoneGap Sharing Plugin #
+# added some android and updated for cordova 3.0 by Etienne Adriaenssen
 ---
-### [This plugin is hosted by the author](https://github.com/bfcam/phonegap-ios-social-plugin)
+### [This plugin is hosted by the author](https://github.com/etiennea/phonegap-social-plugin)
 ---
 
 ## DESCRIPTION ##
@@ -75,5 +75,5 @@ Here is what the share screen looks like:
 Contributors :
 
 * [Cameron Lerch](http://brightflock.com), author. Sponsored by Brightflock.
-
 * [Sidney Bofah](http://neofonie-mobile.de)
+* [Etienne Adriaenssen](http://etiennea.com)
