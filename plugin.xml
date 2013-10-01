@@ -3,8 +3,8 @@
 <plugin
     xmlns="http://cordova.apache.org/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.phonegap.plugins.sharesocial"
-    version="0.1.0">
+    id="me.apla.cordova.share-social"
+    version="0.1.1">
 
     <name>ShareSocial</name>
     <description>Cordova social sharing plugin</description>
@@ -19,11 +19,11 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ShareSocial">
-                <param name="android-package" value="com.phonegap.plugins.sharesocial"/>
+                <param name="android-package" value="me.apla.cordova.ShareSocial"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/ShareSocial.java" target-dir="src/me/apla/cordova/" />
+        <source-file src="src/android/ShareSocial.java" target-dir="src/me/apla/cordova" />
     </platform>
 
     <!-- ios -->
@@ -31,6 +31,7 @@
         <config-file target="config.xml" parent="/widget/plugins">
             <feature name="ShareSocial">
                 <param name="ios-package" value="ShareSocial" />
+                <param name="onload" value="true" />
             </feature>
         </config-file>
 
