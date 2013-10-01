@@ -17,6 +17,7 @@ ShareSocial.prototype.available = function(callback) {
 ShareSocial.prototype.share = function(message, image, url, title, successCallback, failCallback) {
 
 	function success(args) {
+		console.log(args);
 		successCallback && successCallback(args);
 	}
 

@@ -18,12 +18,12 @@
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="ShareSocial" value="com.phonegap.plugins.sharesocial">
+            <feature name="ShareSocial">
                 <param name="android-package" value="com.phonegap.plugins.sharesocial"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/ShareSocial.java" target-dir="src/me/apla/cordova" />
+        <source-file src="src/android/ShareSocial.java" target-dir="src/me/apla/cordova/" />
     </platform>
 
     <!-- ios -->
